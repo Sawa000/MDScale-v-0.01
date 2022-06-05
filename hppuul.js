@@ -65,8 +65,8 @@ const hppuul =  [
     },{    // 体温 ID タイトル番号 タイトル 問題文==========
         mondaibanngou: "H2",
         mondaiban: "H2",
-        taitoruna:"どちらの方が高いだろうか",
-        monndaina: "A30%の確率で10000円もらうか B30%の確率で3000円を3回もらえるか",
+        taitoruna:"どちらの方が、多くお金をもらえる確率が高いか",
+        monndaina: "A30%の確率で10000円もらうか, B30%の確率で3000円を3回もらえるか",
         // テキストbox_on_oof テキストboxID
         textbox_on_off: 0,
         textboxID: "textboxIDh",
@@ -97,7 +97,7 @@ const hppuul =  [
         mondaibanngou: "H3",
         mondaiban: "H3",
         taitoruna:"どちらの確率が高いか",
-        monndaina: "A非常に頭の良い女性は、自分より頭の悪い男性と結婚する確率が高い B非常に頭の良い女性は、自分と同じくらい頭の良い男性と結婚する確率が高い",
+        monndaina: "A非常に頭の良い女性は、自分より頭の悪い男性と結婚する確率が高い B非常に頭の良い女性は、自分と同じくらい頭の良い男性と 結婚する確率が高い",
         // テキストbox_on_oof テキストboxID
         textbox_on_off: 0,
         textboxID: "textboxIDh",
@@ -250,7 +250,7 @@ const hppuul =  [
     },{
         mondaibanngou: "H8",
         mondaiban: "H8",
-        taitoruna:"次のボクシングの試合で　確率の高い結果を予測してください",
+        taitoruna:"次のボクシングの試合で　確率の高い結果を　予測してください",
         monndaina: "令和の怪物といわれたボクサー上司 VS 無断欠勤の鬼-山田",
         // テキストbox_on_oof テキストboxID
         textbox_on_off: 0,

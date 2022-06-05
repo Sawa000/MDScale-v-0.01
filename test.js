@@ -1871,8 +1871,8 @@ botan4ID2.addEventListener('click', () => {
 
 // 確認版テスト
 botannAA2.addEventListener('click', () => {
-    if( kakuninbutjs3 >= 355){
-        if(kakuninbutjs3 >= 370){
+    if( kakuninbutjs3 >= 0){
+        if(kakuninbutjs3 >= 1){
             Up3 = 0;
             Hp3 = 0;
             Tp3 = 1; 
@@ -1929,20 +1929,20 @@ botannAA2.addEventListener('click', () => {
     const jodsougo0 = document.getElementById("jodsougo0");
     jodsougo0.innerText = "・全体の総評";
     const jodsougo1 = document.getElementById("jodsougo1");
-    jodsougo1.innerText = "全体の適性は" + BAllUHT + "％です";
+    jodsougo1.innerText = "全体の適性は「" + BAllUHT + "％」です";
 
     const jodnew0 = document.getElementById("jodnew0");
     jodnew0.innerText = "・新しい仕事への適性";
     const jodnew1 = document.getElementById("jodnew1");
-    jodnew1.innerText = "新しい仕事の適性は" + BAllHU + "％です"
+    jodnew1.innerText = "新しい仕事の適性は「" + BAllHU + "％」です"
 
     const jodold0 = document.getElementById("jodold0");
-    jodold0.innerText = "普段の仕事への適性";
+    jodold0.innerText = "・普段の仕事への適性";
     const jodold1 = document.getElementById("jodold1");
-    jodold1.innerText = "普段の仕事の適性は" + BAllUT + "％です";
+    jodold1.innerText = "普段の仕事の適性は「" + BAllUT + "％」です";
 
     const jodothenA = document.getElementById("jodothenA");
-    jodothenA.innerText = "送信データ数値";
+    jodothenA.innerText = "・送信データ数値";
 
     const jodothen0 = document.getElementById("jodothen0");
     const errdeta = kakuninbutjs2 + AllHp.toString(16) + AllUp.toString(16) + AllTp.toString(16) + randoms[0].toString(16) + randoms[1].toString(16) + randoms0[0].toString(16) + randoms0[1].toString(16) + randoms0[2].toString(16) + randoms0[3].toString(16) + randoms0[4].toString(16)

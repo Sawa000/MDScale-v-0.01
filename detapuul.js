@@ -99,8 +99,8 @@ const textpuul =  [
     },{    // 脈拍 ID タイトル番号 タイトル 問題文==========
         mondaibanngou:2,
         mondaiban: "2",
-        taitoruna:"体温を入れてください",
-        monndaina: "36.0度の場合は 360と記入してください",
+        taitoruna:"風邪の症状はありますか？",
+        monndaina: "ある場合は１　ない場合は0と記入してください",
         // テキストbox_on_oof テキストboxID
         textbox_on_off: 1,
         textboxID: "textboxIDc",
