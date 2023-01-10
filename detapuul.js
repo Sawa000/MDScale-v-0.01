@@ -67,7 +67,7 @@ const textpuul =  [
     },{    // 体温 ID タイトル番号 タイトル 問題文==========
         mondaibanngou:1,
         mondaiban: "1",
-        taitoruna:"IDを入れてください",
+        taitoruna:"登録した名前をいれてください",
         monndaina: "",
         // テキストbox_on_oof テキストboxID
         textbox_on_off: 1,
